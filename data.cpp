@@ -29,7 +29,7 @@ int main(){
 	ifstream input ("Test");
 	if(input.is_open()){
 		while(getline(input,stuff)){
-			comp += stuff;
+			comp = comp + stuff + "\n";
 		}
 		input.close();
 	}
