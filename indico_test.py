@@ -11,18 +11,11 @@ print("Python file is executing")
 #into the text file as a string
 fo = open("Test", "w")
 #Calling the images saved in the folder to analyze 
-fo.write(str(indicoio.fer("happy.png.jpg")));
-fo.write("End\n");
-fo.write(str(indicoio.fer("fear.png")));
-fo.write("End\n");
 fo.write(str(indicoio.fer("Shyam1.jpg")));
-fo.write("End\n");
+fo.write("\n");
 fo.write(str(indicoio.fer("Shyam2.jpg")));
-fo.write("End\n");
-fo.write(str(indicoio.fer("Shyam3.jpg")));
-fo.write("End\n");
-fo.write(str(indicoio.fer("Shyam4.jpg")));
-fo.write("End\n");
-fo.write(str(indicoio.fer("Shyam5.jpg")));
-fo.close();
+fo.write("\n");
+fo.write(str(indicoio.fer("Ostap.jpg")));
+fo.write("\n");
+
 
